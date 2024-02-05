@@ -1,0 +1,1093 @@
+@keyframes Scrollheader {
+    to {
+        padding: 5%;
+    }
+}
+
+div.Welcome {
+    font-size: 50px;
+    font-family: fantasy;
+    position: absolute;
+    top: 5%;
+    left: 11.5%;
+}
+.bar {
+    background-color: rgb(228, 255, 246);
+    text-indent: -99999%;
+    padding: 10%;
+}   
+.pics1 {
+    filter: blur(3px);
+    position: absolute;
+    text-align: center;
+    transition-duration: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.bar:hover {
+    padding: 10%;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.pics1:hover {
+    filter: blur(10px);
+    transition-duration: 0.4s;
+    transition-delay: 0.4s;
+}
+.box1 {
+    position: absolute;
+    top: 25%;
+    left: 16%;
+    font-size: 270%;
+}
+.box2 {
+    position: absolute;
+    top: 25%;
+    left: 58%;
+    font-size: 270%;
+}
+.Micky {
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    font-size: 150%;
+
+}
+.Micky2 {
+    position: absolute;
+    top: 32%;
+    left: 16%;
+    font-size: 150%;
+
+}
+.Mason {
+    position: absolute;
+    top: 30%;
+    left: 58%;
+    font-size: 150%;
+
+}
+.Mason2 {
+    position: absolute;
+    top: 32%;
+    left: 58%;
+    font-size: 150%;
+
+}
+.Mason:hover {
+    .bar {
+        padding: 10%; 
+    }
+}
+.Mason2:hover {
+    .bar {
+        padding: 10%; 
+    }
+}
+.Micky2:hover {
+    .bar {
+        padding: 10%; 
+    }
+}
+.Micky:hover {
+    .bar {
+        padding: 10%; 
+    }
+}
+@keyframes Slidefromthetop {
+    from {
+        transform: translateY(-150px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.Welcome {
+    animation-name: Slidefromthetop;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay:  1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    transform: translatey(-150px);
+}
+.Circle1 {
+    position: absolute;
+    top: -4%;
+    left: -3%;
+    cursor: pointer;
+
+}
+.circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 48.9%;
+    top: 21.5%;
+
+}
+.Circle2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 6.8%;
+    top: 21.5%;
+}
+.Profilepics {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 8.6%;
+    border-radius: 50%;
+    top: 25.2%;
+}
+.Profilepics1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50.7%;
+    top: 25.2%;    
+    border-radius: 50%;
+}
+.lan1 {
+    font-family: fantasy;
+    font-size: 170%;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    color: rgb(0, 6, 34);
+    width: 180px;
+}
+.lan2 {
+    font-family: fantasy;
+    font-size: 170%;
+    position: absolute;
+    left: 1%;
+    top: 10%;
+    color: rgb(0, 6, 34);
+    width: 180px;
+}
+.lan3 {
+    font-family: fantasy;
+    font-size: 170%;
+    position: absolute;
+    left: 1%;
+    top: 19%;
+    color: rgb(0, 6, 34);
+    width: 180px;
+}
+.lan1:hover {
+    background-color: rgb(255, 79, 79);
+    color: white;
+    transition-duration: 0.4s;
+    transition-delay: 0.4s;
+    border-radius: 10px;
+}
+.lan2:hover {
+color: white;
+background-color: rgb(255, 79, 79);
+    transition-duration: 0.4s;
+    transition-delay: 0.4s;
+    border-radius: 10px;
+}
+.lan3:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 79, 79);
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    border-radius: 10px;
+}
+@keyframes Rolling {
+    from {
+        transform: rotate(45);
+    }
+    to {
+        transform: rotate(45);
+    }
+}
+.Dropdown .Circle1 {
+    cursor: pointer;
+}
+.Dropdown .Content {
+    position: absolute;
+    background-color: rgb(255, 175, 175);
+    top: 13%;
+    left: 2%;
+    width: 220px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 10px;
+}
+.Content .lan1{
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.Content .lan2{
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.Content .lan3{
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.Dropdown .Content {
+    color: aquamarine;
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    visibility: hidden;
+    transition-delay: 0.4s;
+    transition-duration: 0.4s;
+}
+@keyframes Fadeout {
+    0% {opacity: 0;}
+    100% {opacity: 10;}
+}
+@keyframes Slidefromtheleft {
+    from {
+        transform: translatex(-25px);
+    }
+     to {
+        transform: translateX(0px);
+
+     }
+
+    }
+    @keyframes Slideoutfromtheleft {
+        from {
+            transform: translatex(0px);
+        }
+         to {
+            transform: translateX(-25px);
+    
+         
+        }
+    }
+    .Dropdown:hover .Content {
+        transform: translateX(-20px);
+        transition-delay: 0.4s;
+        transition-duration: 0.4s;
+        visibility: visible;
+}
+.Reason {
+    padding: 150px 150px;    
+    position: absolute;
+    top: 50%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(199, 175, 255);
+    left: 15%;
+    transition-delay: 0.3s ;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.Reason .Eason {
+    font-size: 35px;
+    font-family: fantasy;
+    position: absolute;
+    top: 0.5%;
+    left: 2%;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+}
+.Reason:hover .Eason {
+    color: white;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+} 
+
+.Reason .arrow1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 1%;
+    left: 75%;  
+    background-color: white;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.Reason:hover {
+    background-color: rgb(227, 116, 255);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    }
+
+
+    @keyframes coming {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(20px);
+    }
+}
+
+
+.Reason:hover .arrow1{
+    transform: translateX(10px);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    display: block;
+    background-color: white;
+    border-radius: 50px;
+
+}
+.Content .home {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+}
+.home {
+    font-family: fantasy;
+    font-size: 170%;
+    position: absolute;
+    left: 1%;
+    top: 28%;
+    color: rgb(0, 6, 34);
+    width: 180px;
+}
+.home:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 79, 79);
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    border-radius: 10px;
+}
+.Content {
+    border: 10px;
+    border-color: black;
+}
+.Circle1 {
+    border-radius: 50%;
+}
+.doc {
+    font-family: fantasy;
+    font-size: 170%;
+    position: absolute;
+    left: 1%;
+    top: 38%;
+    color: rgb(0, 6, 34);
+    width: 180px;
+}
+.doc:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 79, 79);
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    border-radius: 10px;
+}
+.slide {
+    font-family: fantasy;
+    font-size: 170%;
+    position: absolute;
+    left: 1%;
+    top: 47%;
+    color: rgb(0, 6, 34);
+    width: 180px;
+}
+.slide:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 79, 79);
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    border-radius: 10px;
+}
+.Content .slide {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.Content .doc {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.abme {
+    padding: 150px 150px;    
+    position: absolute;
+    top: 50%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(206, 255, 174);
+    left: 42%;
+    transition-delay: 0.3s ;
+    transition-duration: 0.3s;
+
+}
+.abme .arrow2 {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 1%;
+        left: 75%;  
+        background-color: white;
+        border-radius: 50%;
+        transition-duration: 0.3s;
+        transition-delay: 0.3s;
+}
+.abme:hover {
+    background-color: rgb(171, 255, 114);
+    color: white;
+    cursor: pointer;
+}
+.abme:hover .arrow2{
+    transform: translateX(10px);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    display: block;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.pre {
+    border-radius: 30px;
+    position: absolute;
+    left: 2%;
+    top: 35%;
+    width: 290px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.abme:hover .pre {
+    transform: translateY(30px);
+    transition-duration: 1s;
+    transition-delay: 1ss;
+    cursor: pointer;
+}
+.pre1 {
+    border-radius: 30px;
+    position: absolute;
+    left: 8%;
+    top: 35%;
+    width: 250px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    height: -350px;
+}
+.Reason:hover .pre1 {
+    transform: translateY(30px);
+    transition-duration: 1s;
+    transition-delay: 1ss;
+}
+.Micky3 {
+    width: 100px ;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25.3%;
+    left: 8.6%;
+}
+.slideshow1 .arrow3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 1%;
+    left: 75%;  
+    background-color: white;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.slideshow1 .slide1 {
+    font-size: 35px;
+    position: absolute;
+    font-family: fantasy;
+    top: 0.5%;
+    left: 2%;
+    color: black;
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+}
+.slideshow1:hover .slide1 {
+    color: white;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+}
+.slideshow1 {
+    padding: 150px 150px;    
+    position: absolute;
+    top: 50%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(110, 149, 255);
+    left: 70%;
+    transition-delay: 0.3s ;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.slideshow1:hover {
+    background-color: rgb(65, 94, 255);
+}
+.abme .aboutme{
+    font-size: 35px;
+    position: absolute;
+    font-family: fantasy;
+    top: 0.5%;
+    left: 2%;
+    color: black;
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+}
+.abme:hover .aboutme {
+    color: white;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+}
+.abme .aboutme1 {
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.slideshow1:hover .arrow3 {
+    transform: translateX(10px);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    display: block;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.slideshow1 .pre3 {
+    border-radius: 30px;
+    position: absolute;
+    left: 2%;
+    top: 35%;
+    width: 290px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    height: -280px;
+}
+.slideshow1:hover .pre3 {
+    transform: translateY(30px);
+    transition-duration: 1s;
+    transition-delay: 1ss;
+    cursor: pointer;
+}
+.vote {
+    padding: 150px 150px;    
+    position: absolute;
+    top: 90%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(231, 255, 126);
+    left: 15%;
+    transition-delay: 0.3s ;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.vote .arrow4 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 1%;
+    left: 75%;  
+    background-color: white;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.vote .vot {
+    font-size: 35px;
+    position: absolute;
+    font-family: fantasy;
+    top: 0.5%;
+    left: 2%;
+    color: black;
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+}
+.vote:hover .vot {
+    color: rgb(255, 255, 255);
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+}
+.vote:hover .rainbow{
+    opacity: 10;
+    transition-delay: 0.3s ;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    filter: blur(2px);
+    
+}
+.vote:hover .arrow4 {
+transform: translateX(10px);
+transition-duration: 0.3s;
+transition-delay: 0.3s;
+display: block;
+background-color: white;
+border-radius: 50px;
+cursor: pointer;
+}
+.vote .voting{
+    border-radius: 30px;
+    position: absolute;
+    left: 2%;
+    top: 35%;
+    width: 290px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    height: -280px;
+}
+.rainbow {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.purple {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;  
+}
+.Reason:hover .purple {
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;  
+    opacity: 10;
+    filter: blur(2px);
+}
+.green {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;  
+}
+.abme:hover .green {
+    opacity: 10;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;  
+    filter: blur(2px);
+}
+.blue {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;    
+}
+.slideshow1:hover .blue {
+    opacity: 10;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;  
+    filter: blur(2px);
+}
+.docum {
+    padding: 150px 150px;    
+    position: absolute;
+    top: 90%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 218, 139);
+    left: 42%;
+    transition-delay: 0.3s ;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.docum .docu {
+    font-size: 35px;
+    position: absolute;
+    font-family: fantasy;
+    top: 0.5%;
+    left: 2%;
+    color: black;
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+}
+.docum .arrow5 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 1%;
+    left: 75%;  
+    background-color: white;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    }
+.docum:hover .arrow5 {
+    transform: translateX(10px);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    display: block;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.docum:hover .docu {
+    color: white;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.docum:hover .orange {
+    opacity: 10;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;  
+    filter: blur(2px);
+}
+.orange {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;  
+}
+.credit {
+    padding: 150px 150px;    
+    position: absolute;
+    top: 90%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 174, 228);
+    left: 70%;
+    transition-delay: 0.3s ;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.credit .arrow6 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 1%;
+    left: 75%;  
+    background-color: white;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.credit .creditto {
+    font-size: 35px;
+    position: absolute;
+    font-family: fantasy;
+    top: 0.5%;
+    left: 2%;
+    color: black;
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+}
+.credit:hover .arrow6 {
+    transform: translateX(10px);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    display: block;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.credit:hover .creditto {
+    color: white;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.pink {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s; 
+}
+.credit:hover .pink {
+    opacity: 10;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;  
+    filter: blur(2px);
+}
+.credit:hover {
+    background-color: pink;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;  
+}
+.reason1 {
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    background-color: rgb(179, 255, 176);
+    width: 750px;
+    height: 170px;
+    border-radius: 20px;
+}
+.reason1 .reas {
+    font-family: fantasy;
+    font-size: 250%;
+    position: absolute;
+    left: 40%;
+}
+.reason1 .reas1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+}
+.reason2 {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    background-color: rgb(255, 142, 142);
+    width: 750px;
+    height: 170px;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s; 
+}
+.reason2 .reas2 {
+    font-family: fantasy;
+    font-size: 250%;
+    position: absolute;
+    left: 40%;
+}
+.reason2 .reass2 {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+.reason3 {
+    position: absolute;
+    top: 110%;
+    left: 20%;
+    background-color: rgb(179, 152, 255);
+    width: 750px;
+    height: 170px;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s; 
+}
+.reason3 .reas3 {
+    font-family: fantasy;
+    font-size: 250%;
+    position: absolute;
+    left: 40%;
+}
+.reason3 .reasss3 {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+.Reason1 {
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.reason1:hover {
+    filter: blur(0px);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s; 
+}
+.reason2:hover {
+    filter: blur(0px);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.reason3 {
+    filter: blur(0px);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.Bground {
+    background-color: rgb(145, 255, 130);
+}
+.bar2 {
+    background-color: rgb(178, 255, 168);
+    height: 530px;
+}
+.Trung {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    width: 350px;
+    height: 350px;
+    border: 10px;
+    border-radius: 50%;
+}
+.Me {
+    position: absolute;
+    top: 60%; 
+    left: 2%; 
+    font-size: 45px;
+}
+.emailschool {
+    position: absolute;
+    top: 46%; 
+    left: 41%;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: rgb(58, 58, 58);
+
+}
+.Businessemail {
+    position: absolute;
+    top: 50%; 
+    left: 41%; 
+     font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(58, 58, 58);
+
+}
+.Personalemail {
+    position: absolute;
+    top: 54%; 
+    left: 41%;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(58, 58, 58);
+
+}
+.name {
+    position: absolute;
+    top: 36%; 
+    left: 43%;  
+    font-family: fantasy;
+    color: rgb(58, 58, 58);
+    font-size: 75px;
+}
+.slideshow2 {
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.voteme {
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.Document1 {
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.credit1 {
+    background-color: rgb(255, 172, 172);
+    position: absolute;
+    width: 1500px;
+    left: 10%;
+    top: 10%;
+    height: 250px;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.credit1 .credit2 {
+    font-size: 50px;
+    font-family: fantasy;
+}
+.credit1 .credit3 {
+    font-size: 25px;
+    top: 25%;
+    position: absolute;
+    left: 1%;
+}
+.Content .Credity{
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: fantasy;
+    font-size: 170%;
+    position: absolute;
+    left: 1%;
+    top: 56%;
+    color: rgb(0, 6, 34);
+    width: 180px;
+}
+.Credity:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 79, 79);
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    border-radius: 10px;
+}
+.credit4 {
+    background-color: rgb(164, 255, 169);
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    height: 250px;
+    border-radius: 20px;
+    width: 1500px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.credit4 .credit5 {
+    font-size: 50px;
+    font-family: fantasy;
+    position: absolute;
+    left: 1%;
+}
+.credit4 .credit6 {
+    font-size: 25px;
+    top: 25%;
+    position: absolute;
+    left: 1%;
+}
+.credit1:hover {
+    background-color: rgb(255, 91, 91);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.credit4:hover {
+    background-color: rgb(131, 255, 94);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.credit .creditme {
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
